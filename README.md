@@ -1,2 +1,2 @@
-# ALX HIGHER LEVEL PROGRAMMING
+# ALX Higher Level Programming
 
