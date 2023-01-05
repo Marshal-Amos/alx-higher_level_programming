@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "/usr/include/python3.8/Python.h"
+#include <Python.h>
 
 void print_python_list_info(PyObject *p)
 {
