@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <Python.h>
+#include "/usr/include/python3.8/Python.h"
 
 void print_python_list_info(PyObject *p)
 {
 	PyListObject *pp;
 	int i;
 
-	pp = p;
+	pp = (PyListObject *)p;
 	printf("[*] Size of the Python List = %d\n", pp->ob_base.ob_size);
 	printf("[*] Allocated = %d\n", pp->allocated);
 
